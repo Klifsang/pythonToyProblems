@@ -1,14 +1,3 @@
-A = [51, 71, 17, 42]
-
-def add_digits(number):
-    return sum(map(int, str(number)))
-
-
-
-
-
-
-
 def digit_sum(n):
     return sum(map(int, str(n)))
 
@@ -22,5 +11,5 @@ def solution(A):
 
 # usage
 print(solution([51, 71, 17, 42]))  # Output: 93
-print(solution([42, 33, 60]))       # Output: 102
-print(solution([51, 32, 43]))       # Output: -1
+print(solution([42, 33, 60]))      # Output: 102
+print(solution([51, 32, 43]))      # Output: -1
