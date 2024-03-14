@@ -9,7 +9,7 @@ def solution(A):
             A[index] = target
             A[index+1] = A[index+1] - required
 
-    if A[len(A)-1] != target:
+    if A[len(A)-1] + count != target:
         return -1 # Return -1 if the last box does not have the target number of bricks
     else:
         return count  # Return the total number of moves needed
